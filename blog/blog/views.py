@@ -1,8 +1,9 @@
 """blog view definitions."""
 
 from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def hello(request):
     """Definition of hello view."""
-    return HttpResponse("Hello World")
+    return render(request, 'home.html')
