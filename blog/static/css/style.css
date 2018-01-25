@@ -19,7 +19,15 @@ nav li a {
     text-transform: uppercase;
     font-size: 15px;
     text-align: center;
+    transition: .15s background-color linear;
 }
+nav li a:hover,
+nav li a:focus,
+nav li a:active {
+    background-color: #8b84a8;
+    color: #fff;
+}
+
 .primary-nav {
     float: right;
 }
