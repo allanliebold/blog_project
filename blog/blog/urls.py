@@ -2,7 +2,7 @@
 
 from django.conf.urls import url
 from django.contrib import admin
-from . import views
+from posts import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
