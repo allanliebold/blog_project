@@ -77,20 +77,26 @@ nav {
     right: 0;
     left: 0;
     z-index: 1;
-    background-color: #777;
+    background: linear-gradient(to bottom right, 
+        rgba(155, 155, 155, 1),
+        rgba(100, 100, 100, 1));
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
 }
 
 nav figure {
     position: absolute;
-    width: 100px;
-    top: 10px;
-    left: 40px;
+    width: 50px;
+    top: 5px;
+    left: 20px;
     transition: all 1s ease-in-out;
 }
 
 nav figure:hover {
     transform: rotateY(180deg);
+}
+
+nav figure img {
+    width: 100%;
 }
 
 nav ul {
@@ -119,7 +125,7 @@ nav li a:active {
 }
 .primary-nav > li > a {
     float: left;
-    padding: 25px 0;
+    padding: 10px 0;
     width: 150px;
     border-left: 1px solid #8d8791;
 }
