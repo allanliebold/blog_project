@@ -42,7 +42,7 @@ html {
 Basic Styles
 **********/
 body {
-    background-color: #555;
+    background-color: #eee;
 }
 .wrapper {
     margin: 0 auto;
@@ -80,7 +80,7 @@ nav {
 }
 
 nav ul {
-    background-color: #777;
+    background-color: #999;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 5% 100%);
 }
 nav li a {
