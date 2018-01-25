@@ -1,3 +1,18 @@
-body {
-    background-color: green;
+/**********
+Nav
+**********/
+nav {
+    background-color: #55a;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.primary-nav {
+    float: right;
+}
+.primary-nav > li {
+    float: left;
 }
