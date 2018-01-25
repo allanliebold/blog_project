@@ -81,7 +81,7 @@ nav {
 
 nav ul {
     background-color: #777;
-    clip-path: polygon(0 0, 95% 0, 100% 100%, 5% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 5% 100%);
 }
 nav li a {
     color: #766e65;
