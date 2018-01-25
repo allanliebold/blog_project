@@ -78,8 +78,19 @@ nav {
     left: 0;
     z-index: 1;
     background-color: #777;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
-    animation: moveInTop 1s ease-out;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+}
+
+nav figure {
+    position: absolute;
+    width: 100px;
+    top: 10px;
+    left: 40px;
+    transition: all 1s ease-in-out;
+}
+
+nav figure:hover {
+    transform: rotateY(180deg);
 }
 
 nav ul {
@@ -118,7 +129,7 @@ Content
 **********/
 .intro-content {
     padding-bottom: 80px;
-    margin-top: 125px;
+    margin-top: 90px;
 }
 
 /**********
