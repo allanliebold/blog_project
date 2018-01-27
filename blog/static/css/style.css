@@ -12,6 +12,7 @@ a, a:visited {
 }
 
 html {
+    font-size: 62.5%;
     box-sizing: border-box;
 }
 
@@ -42,7 +43,7 @@ html {
 Basic Styles
 **********/
 body {
-    background-color: #eee;
+    background-color: #ddd;
 }
 .wrapper {
     margin: 0 auto;
@@ -78,7 +79,7 @@ nav {
     left: 0;
     z-index: 1;
 /*
-    background: linear-gradient(to bottom right, 
+    background: linear-gradient(to bottom right,
         rgba(155, 155, 155, 1),
         rgba(100, 100, 100, 1));
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
