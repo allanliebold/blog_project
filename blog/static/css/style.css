@@ -88,9 +88,9 @@ nav {
 
 nav figure {
     position: absolute;
-    width: 50px;
-    top: 5px;
-    right: 25px;
+    width: 5rem;
+    top: .5rem;
+    right: 2.5rem;
     transition: all 1s ease-in-out;
     z-index: 1;
 }
@@ -110,7 +110,7 @@ nav ul {
 nav li a {
     color: #766e65;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 1.5rem;
     text-align: center;
     transition: .15s background-color linear;
 }
@@ -129,21 +129,21 @@ nav li a:active {
 }
 .primary-nav > li > a {
     float: left;
-    padding: 10px 0;
-    width: 150px;
-    border-left: 1px solid #8d8791;
+    padding: 1rem 0;
+    width: 15rem;
+    border-left: .1rem solid #8d8791;
 }
 
 .primary-nav > li:last-child {
-    width: 100px;
+    width: 10rem;
 }
 
 /**********
 Content
 **********/
 .intro-content {
-    padding-bottom: 80px;
-    margin-top: 30px;
+    padding-bottom: 8rem;
+    margin-top: 3rem;
 }
 
 /**********
@@ -151,7 +151,7 @@ Animations
 **********/
 @keyframes moveInTop {
     0% {
-        transform: translateY(-100px);
+        transform: translateY(-10rem);
     }
     100% {
         transform: translate(0);
