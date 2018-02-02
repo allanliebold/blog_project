@@ -53,6 +53,13 @@ body {
   max-width: 96rem;
   width: 90%; }
 
+/**********
+Content
+**********/
+.intro-content {
+  padding-bottom: 8rem;
+  margin-top: 3rem; }
+
 h1 {
   font-weight: 700;
   font-size: 8rem;
@@ -69,13 +76,6 @@ p {
   line-height: 1.6;
   margin-bottom: 2rem;
   font-size: 1.6rem; }
-
-/**********
-Content
-**********/
-.intro-content {
-  padding-bottom: 8rem;
-  margin-top: 3rem; }
 
 .u-center-text {
   text-align: center; }
