@@ -144,15 +144,3 @@ Content
     padding-bottom: 8rem;
     margin-top: 3rem;
 }
-
-/**********
-Animations
-**********/
-@keyframes moveInTop {
-    0% {
-        transform: translateY(-10rem);
-    }
-    100% {
-        transform: translate(0);
-    }
-}
