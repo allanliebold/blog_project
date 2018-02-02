@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compile:sass": "node-sass blog/static/sass/main.scss blog/static/css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/allanliebold/blog_project/issues"
   },
-  "homepage": "https://github.com/allanliebold/blog_project#readme"
+  "homepage": "https://github.com/allanliebold/blog_project#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
 }

@@ -102,3 +102,6 @@ ENV/
 
 # secrets file
 secrets.py
+
+# node modules folder
+node_modules/
