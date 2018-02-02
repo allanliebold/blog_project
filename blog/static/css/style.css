@@ -45,6 +45,7 @@ html {
 Basic Styles
 **********/
 body {
+  box-sizing: border-box;
   background-color: #ddd; }
 
 .wrapper {
@@ -68,6 +69,16 @@ p {
   line-height: 1.6;
   margin-bottom: 2rem;
   font-size: 1.6rem; }
+
+/**********
+Content
+**********/
+.intro-content {
+  padding-bottom: 8rem;
+  margin-top: 3rem; }
+
+.u-center-text {
+  text-align: center; }
 
 /**********
 Nav
@@ -130,13 +141,3 @@ nav li a:active {
 
 .primary-nav > li:last-child {
   width: 10rem; }
-
-/**********
-Content
-**********/
-.intro-content {
-  padding-bottom: 8rem;
-  margin-top: 3rem; }
-
-.u-center-text {
-  text-align: center; }
